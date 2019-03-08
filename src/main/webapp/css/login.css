@@ -1,0 +1,130 @@
+html,body{
+	height: 100%;
+}
+input::-webkit-input-placeholder { /* WebKit browsers*/ 
+¡¡¡¡color:#2474ae;font-size:20px;font-family: "Î¢ÈíÑÅºÚ";line-height: 20px;
+¡¡¡¡}
+input:-moz-placeholder {  /* Mozilla Firefox 4 to 18*/ 
+¡¡¡¡color:#2474ae;font-size:20px;font-family: "Î¢ÈíÑÅºÚ";line-height: 20px;
+¡¡¡¡}
+input::-moz-placeholder {  /* Mozilla Firefox 19+*/ 
+¡¡¡¡color:#2474ae;font-size:20px;font-family: "Î¢ÈíÑÅºÚ";line-height: 20px;
+¡¡¡¡}
+input:-ms-input-placeholder { /* Internet Explorer 10+*/ 
+¡¡¡¡color:#2474ae;font-size:20px;font-family: "Î¢ÈíÑÅºÚ";line-height: 20px;
+}
+body{
+	overflow:hidden;
+	box-sizing: border-box;
+	background-image: url(../img/bg2.png);
+	background-size: cover;
+}
+.left{
+	position: relative;
+}
+.logo{
+	position: absolute;
+	width: 100%;
+	top: 50px;
+}
+.earth{
+	position: absolute;
+	z-index: -1;
+}
+.left p{
+	position: absolute;
+	left: 50%;
+	margin-left: -35%;
+	width: 150%;
+	top: 150px;
+	color: white;
+	font-size: 30px;
+	padding: 10px 20px 10px 0px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+.left p img{
+	position: absolute;
+	left:-25px;
+	top: -12px;
+	z-index: -1;
+}
+.computer{
+	position: absolute;
+	left: 50%;
+	margin-left: -25%;
+	width: 50%;
+	top: 250px;
+}
+.login{
+	padding: 100px 70px;
+	height: 550px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	background-image: url(../img/loginborder.png);
+	background-size: 100% 100%;
+}
+input{
+	border: 0;
+	background: transparent;
+	height: 37px;
+	margin-left: 10px;
+	outline:none;
+	color:white;
+	font-size: 20px;
+}
+.nameDiv,.passDiv{
+	border: 2px solid #3890d0;
+	padding: 10px 10px 10px 10px;
+
+}
+.passDiv{
+	margin-top: 50px;
+}
+.subDiv{
+	text-align:right;
+}
+.button{
+	background-color: #6FF8FA;
+	width: 100%;
+	margin-top: 75px;
+	font-size: 20px;
+	color: black;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+#registA{
+	border:2px solid  #6FF8FA;
+	background-color:transparent;
+	color:white;
+}
+@media only screen and (max-width:1200px ) {
+	.login{
+		height: 400px;
+	}
+	input{
+	width: 150px;
+}
+.passDiv{
+	margin-top: 20px;
+}
+.button{
+	margin-top:50px;
+}
+.left p{
+	font-size: 26px;
+}
+.left p img{
+	left: 5px;
+	
+}
+}
+.videoBG{
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+}
+.videoBG video{
+	width:120%;
+	height: auto
+}

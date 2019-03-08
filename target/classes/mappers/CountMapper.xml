@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dt.mapper.Dt1Mapper">
+	<select id="selectCount1" resultType="java.lang.Integer">
+		select count(*) from 02dt where status=0;
+	</select>
+	<select id="selectCount2" resultType="java.lang.Integer">
+		select count(*) from 02dt where status=1;
+	</select>
+	<select id="selectCount3" resultType="java.lang.Integer">
+		select count(*) from 02dt where error=0;
+	</select>
+	<select id="selectCount4" resultType="java.lang.Integer">
+		select count(*) from 02dt where error=1;
+	</select>
+	<select id="selectCount5" resultType="java.lang.Integer">
+		select count(*) from 02dt where area=#{areaName};
+	</select>
+</mapper>

@@ -1,0 +1,31 @@
+#models .myModel{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.4);
+	top:0;
+}
+#models .myModel .delDiv{
+	height: 300px;
+	width: 500px;
+	position: relative;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -150px;
+	top: 50%;
+	background-color: white;
+	text-align:center;
+	border: 3px solid #FFFFFF;
+    border-image-source: url(../img/border9.png);
+    border-image-slice: 2;
+    border-image-repeat: round;
+    background-color: rgba(18, 37, 78, 0.8);
+}
+#models .myModel .delDiv h1{
+	color:white;
+	padding-top:80px;
+	padding-bottom:80px
+}
+#models .myModel .delDiv .btn.btn-default{
+	margin-right:80px
+}
